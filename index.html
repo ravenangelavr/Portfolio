@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Cybersecurity</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        h1 {
+            color: #00FF00;
+            margin-top: 30px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="kali-linux.html">Kali Linux</a>
+        <a href="esempi.html">Esempi</a>
+    </div>
+
+    <h1>Benvenuto/a!</h1>
+    <p>Inserisci il tuo nome:</p>
+    <input type="text" id="nomeInput">
+    <button onclick="mostraBenvenuto()">Mostra</button>
+    <p id="benvenuto"></p>
+
+    <script>
+        function mostraBenvenuto() {
+            var nome = document.getElementById("nomeInput").value;
+            document.getElementById("benvenuto").innerHTML = "Benvenuto/a, " + nome + "!";
+        }
+    </script>
+
+    <h1>Introduzione alla Cybersecurity</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget enim at ante vestibulum dignissim. Donec at massa id libero varius sodales et ut massa. Fusce id interdum arcu, non tempor nunc. Aliquam finibus aliquam turpis, auctor hendrerit justo.</p>
+
+    <h1>Strumenti utilizzati nella Cybersecurity</h1>
+    <p>Curabitur finibus, nisi vitae efficitur tempor, dui elit commodo ligula, ut volutpat mauris neque vel purus. In sed orci non nisl aliquam rhoncus. Integer id dui ac ligula dignissim dignissim. Vivamus non nisi id felis consectetur tincidunt.</p>
+
+    <h1>Uso di Kali Linux nella Cybersecurity</h1>
+    <p>Phasellus condimentum neque tortor, eu porttitor ex vestibulum eu. Etiam rhoncus consequat tempor. Sed luctus, justo sit amet placerat venenatis, neque risus condimentum sem, eget vulputate nisi neque vitae mauris.</p>
+
+    <h1>Software all'interno di Kali Linux</h1>
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent dignissim volutpat nunc non feugiat. Donec sed risus quam. Sed eu elit nec tellus vestibulum feugiat sed ut metus.</p>
+
+    <h1>Esempi di Software di Kali Linux</h1>
+    <p>Donec id hendrerit metus. Vivamus varius sollicitudin magna, eu sollicitudin lectus ullamcorper ut. Nam at nisl eget dui laoreet posuere.</p>
+
+    <h1>Esempi con esercizi</h1>
+    <p>Integer consectetur purus at lorem varius, sit amet eleifend tellus congue. Pellentesque a quam at velit fringilla dapibus vel nec nisi.</p>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="kali-linux.html">Kali Linux</a>
+        <a href="esempi.html">Esempi</a>
+    </div>
+</body>
+</html>
